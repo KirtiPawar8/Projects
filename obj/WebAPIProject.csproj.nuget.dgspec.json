@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\10673840\\Documents\\KirtiPawar\\Projects\\WebAPIProject\\WebAPIProject.csproj": {}
+    "C:\\Users\\10673840\\Documents\\KirtiPawar\\Projects\\JWTAuthenticationProject\\Projects\\WebAPIProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\10673840\\Documents\\KirtiPawar\\Projects\\WebAPIProject\\WebAPIProject.csproj": {
+    "C:\\Users\\10673840\\Documents\\KirtiPawar\\Projects\\JWTAuthenticationProject\\Projects\\WebAPIProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\10673840\\Documents\\KirtiPawar\\Projects\\WebAPIProject\\WebAPIProject.csproj",
+        "projectUniqueName": "C:\\Users\\10673840\\Documents\\KirtiPawar\\Projects\\JWTAuthenticationProject\\Projects\\WebAPIProject.csproj",
         "projectName": "WebAPIProject",
-        "projectPath": "C:\\Users\\10673840\\Documents\\KirtiPawar\\Projects\\WebAPIProject\\WebAPIProject.csproj",
+        "projectPath": "C:\\Users\\10673840\\Documents\\KirtiPawar\\Projects\\JWTAuthenticationProject\\Projects\\WebAPIProject.csproj",
         "packagesPath": "C:\\Users\\10673840\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\10673840\\Documents\\KirtiPawar\\Projects\\WebAPIProject\\obj\\",
+        "outputPath": "C:\\Users\\10673840\\Documents\\KirtiPawar\\Projects\\JWTAuthenticationProject\\Projects\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\10673840\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,9 +42,17 @@
               "target": "Package",
               "version": "[6.0.9, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.23.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.23.1, )"
             }
           },
           "imports": [
